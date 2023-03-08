@@ -1,0 +1,60 @@
+body {
+  background-color: #EDE9D5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.login-btn, .logout-btn {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-info img {
+  width: 100px;
+}
+
+button {
+  background-color: darkgreen;
+  padding: 4px 6px;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.back {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+}
+
+.big-container, .small-container, .response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 40px 0;
+}
+
+img {
+  width: 300px;
+}
